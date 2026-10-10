@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LexiQCalcul – Règles de confidentialité</title>
+<meta name="description" content="Règles de confidentialité de l'application LexiQCalcul pour Android.">
+<style>
+  :root {
+    --fond: #f5f7ff;
+    --carte: #ffffff;
+    --texte: #1f2937;
+    --doux: #4b5563;
+    --accent: #4f46e5;
+    --bordure: #e0e3f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fond: #11131f;
+      --carte: #1b1e2e;
+      --texte: #e5e7eb;
+      --doux: #a5adbd;
+      --accent: #a5b4fc;
+      --bordure: #2c3046;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--texte);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 16px 48px;
+  }
+  .carte {
+    background: var(--carte);
+    border: 1px solid var(--bordure);
+    border-radius: 16px;
+    padding: 28px 24px;
+  }
+  h1 { font-size: 1.7rem; margin: 0 0 4px; color: var(--accent); }
+  .maj { color: var(--doux); margin: 0 0 24px; font-size: .95rem; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; color: var(--accent); }
+  p, li { color: var(--texte); }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  .resume {
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 8px;
+  }
+  .resume p { margin: 0; }
+  footer { color: var(--doux); font-size: .85rem; text-align: center; margin-top: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="carte">
+    <h1>Règles de confidentialité de LexiQCalcul</h1>
+    <p class="maj">En vigueur depuis le 9 octobre 2026</p>
+
+    <div class="resume">
+      <p><strong>En bref :</strong> LexiQCalcul ne demande aucun compte et ne recueille
+      aucun renseignement personnel. Vos scores et vos réglages restent sur votre appareil.
+      La seule collecte de données provient des bannières publicitaires de Google AdMob.</p>
+    </div>
+
+    <h2>1. Qui sommes-nous ?</h2>
+    <p>LexiQCalcul est un jeu de lettres et de chiffres conçu par Guillaume, développeur
+    indépendant au Québec (Canada). Il est responsable de la protection des renseignements
+    personnels liés à l'application. Pour toute question, écrivez à
+    <a href="mailto:happyjoy81.g@gmail.com">happyjoy81.g@gmail.com</a>.</p>
+
+    <h2>2. Données conservées sur votre appareil</h2>
+    <p>Pour fonctionner, l'application enregistre <strong>uniquement dans la mémoire de
+    votre appareil</strong> :</p>
+    <ul>
+      <li>vos préférences (barème, main dominante, mode sans chrono) ;</li>
+      <li>vos meilleurs scores (score, date et mode de jeu) ;</li>
+      <li>le fait que vous avez déjà vu l'écran d'accueil.</li>
+    </ul>
+    <p>Ces données ne sont jamais envoyées au développeur ni à un serveur. Vous pouvez
+    effacer vos records dans l'application (menu ☰ → Records) ou effacer toutes les
+    données en vidant le stockage de l'application dans les paramètres Android, ou en la
+    désinstallant.</p>
+
+    <h2>3. Vérification des mots</h2>
+    <p>Les mots sont vérifiés hors ligne, dans un dictionnaire intégré à l'application
+    (Morphalou, ATILF). Les mots que vous proposez ne sont transmis à personne. Si vous
+    touchez un lien « Voir la définition », la page s'ouvre sur le site du
+    <a href="https://www.portail-lexical.fr/">Portail lexical</a>, qui applique ses propres
+    règles de confidentialité.</p>
+
+    <h2>4. Mode multijoueur et caméra</h2>
+    <p>Le mode multijoueur fonctionne sans serveur : la partie est partagée au moyen d'un
+    code QR qui contient seulement les réglages de la partie (barème et tirage). Pour lire
+    le code d'un autre joueur, l'application peut demander l'accès à la caméra. L'image
+    est analysée sur l'appareil, au moment du balayage seulement ; elle n'est ni
+    enregistrée ni transmise. Vous pouvez refuser ou retirer cette permission en tout
+    temps dans les paramètres Android.</p>
+
+    <h2>5. Publicité (Google AdMob)</h2>
+    <p>L'application affiche des bannières fournies par Google AdMob. Pour diffuser et
+    mesurer les annonces et prévenir la fraude, Google peut recueillir automatiquement
+    certaines données, notamment :</p>
+    <ul>
+      <li>l'identifiant publicitaire de l'appareil et d'autres identifiants d'appli ;</li>
+      <li>l'adresse IP et une position approximative qui en est déduite ;</li>
+      <li>des renseignements techniques sur l'appareil et des données sur les
+      interactions avec les annonces (affichages, touchers) ;</li>
+      <li>des données de diagnostic (plantages, performances).</li>
+    </ul>
+    <p>Ces données sont traitées par Google selon ses propres règles :
+    <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a>
+    et <a href="https://policies.google.com/technologies/partner-sites?hl=fr">utilisation
+    des données par Google sur les sites et applis partenaires</a>. Le développeur n'a pas
+    accès à ces données individuelles ; il reçoit seulement des statistiques globales
+    (nombre d'affichages, revenus).</p>
+    <p>Vous pouvez réinitialiser votre identifiant publicitaire ou désactiver la
+    personnalisation des annonces dans les paramètres Android
+    (<em>Google → Annonces</em> ou <em>Confidentialité → Annonces</em>, selon l'appareil).</p>
+
+    <h2>6. Enfants</h2>
+    <p>LexiQCalcul s'adresse à un public général et ne vise pas les enfants de moins de
+    13 ans. Le développeur ne recueille sciemment aucun renseignement personnel sur des
+    enfants.</p>
+
+    <h2>7. Sécurité et conservation</h2>
+    <p>Comme le développeur ne recueille aucune donnée personnelle, il n'en conserve
+    aucune. Les données enregistrées sur votre appareil y restent tant que vous ne les
+    effacez pas ou ne désinstallez pas l'application.</p>
+
+    <h2>8. Vos droits</h2>
+    <p>Conformément aux lois applicables, notamment la Loi sur la protection des
+    renseignements personnels dans le secteur privé du Québec, vous pouvez poser toute
+    question ou formuler toute demande concernant vos renseignements personnels en
+    écrivant à <a href="mailto:happyjoy81.g@gmail.com">happyjoy81.g@gmail.com</a>.
+    Pour les données recueillies par Google, adressez-vous à Google au moyen des liens
+    de la section 5.</p>
+
+    <h2>9. Modifications</h2>
+    <p>Ces règles peuvent être mises à jour, par exemple si l'application change. La date
+    en haut de la page indique la dernière version. En cas de changement important, un
+    avis sera affiché dans l'application.</p>
+  </div>
+  <footer>LexiQCalcul · Jeu hommage indépendant à « Des chiffres et des lettres »</footer>
+</main>
+</body>
+</html>
